@@ -15,15 +15,15 @@ func main() {
 	fmt.Printf("Umur kakak sekarang adalah : %d\n", umurKakak)
 
 	// tahun depan
-	//umurSaya = umurSaya + 1
-	//umurKakak = umurKakak + 1
+	//umurSaya++
+	//umurKakak++
 
 	//fmt.Printf("Umur saya tahun depan adalah : %d\n", umurSaya)
 	//fmt.Printf("Umur kakak tahun depan adalah : %d\n", umurKakak)
 
 	// 5 tahun lagi
-	umurSaya = umurSaya + 5
-	umurKakak = umurKakak + 5
+	umurSaya += 5
+	umurKakak += 5
 
 	fmt.Printf("Umur saya 5 tahun lagi adalah : %d\n", umurSaya)
 	fmt.Printf("Umur kakak 5 tahun lagi adalah : %d\n", umurKakak)
