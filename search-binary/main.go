@@ -5,6 +5,7 @@ import "log"
 func main() {
 	sortedArray := []int{1, 2, 3, 4, 5, 6, 7, 8}
 	find := 8
+	log.Println(Binary(find, sortedArray...))
 }
 
 func Binary(find int, sortedNums ...int) (found bool) {
