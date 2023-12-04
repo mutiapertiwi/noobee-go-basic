@@ -47,3 +47,5 @@ FROM orders
 JOIN users ON orders.user_id = users.user_id
 JOIN order_items ON orders.order_id = order_items.order_id
 GROUP BY orders.order_id, users.username;
+
+
